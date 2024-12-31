@@ -133,11 +133,15 @@ ul li a{
     cursor: pointer;
 
 }
-.right-nav a:hover,
-.right-nav a.active {
+.right-nav a:hover{
     color: var(--main-color);
 } 
-
+.right-nav a.active {
+    color: var(--main-color); 
+    font-weight: bold;        
+    /* text-decoration: underline;  */
+  }
+  
 .home {
     display: flex;
     justify-content: space-around;

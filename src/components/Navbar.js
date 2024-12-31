@@ -14,11 +14,11 @@ const Navbar = () => {
         <div className="right-nav">
           <ul>
             {/* <li><Link to="/">home</Link></li> */}
-            <li><Link to="home" smooth={true} duration={100}>Home</Link></li>
-            <li><Link to="about" smooth={true} duration={100}>About</Link></li>
-            <li><Link to="education" smooth={true} duration={100}>Education</Link></li>
-            <li><Link to="skill" smooth={true} duration={100}>Skills</Link></li>
-            <li><Link to="project" smooth={true} duration={100}>Projects</Link></li>
+            <li><Link to="home" smooth={true} duration={100} spy={true} activeClass="active">Home</Link></li>
+            <li><Link to="about" smooth={true} duration={100} spy={true} activeClass="active">About</Link></li>
+            <li><Link to="education" smooth={true} duration={100} spy={true} activeClass="active">Education</Link></li>
+            <li><Link to="skill" smooth={true} duration={100} spy={true} activeClass="active">Skills</Link></li>
+            <li><Link to="project" smooth={true} duration={100} spy={true} activeClass="active">Projects</Link></li>
           </ul>
         </div>
         <div className="btn">
