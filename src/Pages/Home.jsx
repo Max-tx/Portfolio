@@ -180,6 +180,7 @@ function Home() {
                         <p>Expense Tracker is a project designed to help users efficiently manage and track their
                             financial expenses, providing a user-friendly interface and robust features for budgeting,
                             categorizing expenses, and generating insightful reports.</p>
+                            {/* <a href="https://max-tx.github.io/College-Site/" class="btn">Read more</a>" */}
                     </div>
                 </div>
 

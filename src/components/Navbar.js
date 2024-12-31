@@ -1,5 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
+
 
 const Navbar = () => {
   return (
@@ -11,15 +13,16 @@ const Navbar = () => {
         <i className="fa-solid fa-bars" id="menu-bar"></i>
         <div className="right-nav">
           <ul>
-            <li><Link to="/">home</Link></li>
-            <li><Link to="/about">about</Link></li>
-            <li><Link to="/education">education</Link></li>
-            <li><Link to="/skills">skills</Link></li>
-            <li><Link to="/projects">projects</Link></li>
+            {/* <li><Link to="/">home</Link></li> */}
+            <li><Link to="home" smooth={true} duration={100}>Home</Link></li>
+            <li><Link to="about" smooth={true} duration={100}>About</Link></li>
+            <li><Link to="education" smooth={true} duration={100}>Education</Link></li>
+            <li><Link to="skill" smooth={true} duration={100}>Skills</Link></li>
+            <li><Link to="project" smooth={true} duration={100}>Projects</Link></li>
           </ul>
         </div>
         <div className="btn">
-          <Link to="/contact">contact</Link>
+          <Link to="contact">contact</Link>
         </div>
       </div>
     </header>

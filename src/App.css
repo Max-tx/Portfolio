@@ -66,6 +66,7 @@
 html {
     font-size: 62.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -124,10 +125,13 @@ ul li {
 ul li a{
     text-decoration: none;
     color: var(--menu-text-color);
+    cursor: pointer;
 }
 .btn a{
     text-decoration: none;
     color: var(--second-bg-color);
+    cursor: pointer;
+
 }
 .right-nav a:hover,
 .right-nav a.active {
