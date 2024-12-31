@@ -66,26 +66,6 @@ function Home() {
       
   return (
 <div>
-      <header>
-        <div className="nav">
-            <div className="left-nav">
-                <span>Mohit Parmar</span>
-                {/* <span>Portfolio</span> */}
-            </div>
-            <i className="fa-solid fa-bars" id="menu-bar"></i>
-            <div className="right-nav">
-                <ul>
-                    <li><a href="#home">home</a></li>
-                    <li><a href="#about" >about</a></li>
-                    <li><a href="#education" >education</a></li>
-                    <li><a href="#skill" >skills</a></li>
-                    <li><a href="#project">projects</a></li>
-                    {/* <li><a href="#contact">contact</a></li> */}
-                </ul>
-            </div>
-            <div className="btn"><a href="#contact">contact</a></div>
-        </div>
-    </header>
     <main> 
         <section className="home" id="home">
             <div className="left-home">
@@ -258,13 +238,6 @@ function Home() {
         </section> */}
             <ContactForm />
    </main>
-    <footer className="footer">
-        <div className="footer-content">
-            <p><i className='bx bx-envelope'></i> mohitparmar2429@gmail.com</p>
-            <p>all <i className='bx bx-copyright'></i> rights reserverd by BUNNY</p>
-        </div>
-    </footer>
-
 </div>
   )
 }
