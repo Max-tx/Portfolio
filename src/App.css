@@ -68,7 +68,7 @@
     --text-color: #234237;
     --main-color: #f68d1a;
     --menu-text-color: #234237;
-    --nav-bg-color: var(--bg-color);
+    --nav-bg-color: var(--second-bg-color);
     --shadow-color: #f68d1a;
 }
 
