@@ -180,8 +180,10 @@ function Home() {
                         <p>Expense Tracker is a project designed to help users efficiently manage and track their
                             financial expenses, providing a user-friendly interface and robust features for budgeting,
                             categorizing expenses, and generating insightful reports.</p>
-                            {/* <a href="https://max-tx.github.io/College-Site/" class="btn">Read more</a>" */}
+                        <a href="https://max-tx.github.io/College-Site/" class="view-btn">Read more</a>
+
                     </div>
+
                 </div>
 
                 <div className="project-box">
@@ -192,6 +194,7 @@ function Home() {
                             my college's website, providing students and faculty with a familiar and intuitive platform
                             for accessing important information, resources, and services specific to our institution.
                         </p>
+                        <a href="https://max-tx.github.io/College-Site/" class="view-btn">Read more</a>
                     </div>
                 </div>
 
@@ -202,6 +205,8 @@ function Home() {
                         <p>My Portfolio is a project created to showcase my academic achievements, skills, projects, and
                             extracurricular activities in a visually engaging way, providing a comprehensive overview of
                             my educational journey and potential to prospective universities.</p>
+                        <a href="https://mohitparmar.vercel.app/" class="view-btn">Read more</a>
+
                     </div>
                 </div>
             </div>
