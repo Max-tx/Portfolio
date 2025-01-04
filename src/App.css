@@ -66,6 +66,7 @@
     --bg-color: #ffffff;
     --second-bg-color: #faf5ea;
     --text-color: #234237;
+    --second-text-color: #ffffff;
     --main-color: #f68d1a;
     --menu-text-color: #234237;
     --nav-bg-color: var(--second-bg-color);
@@ -104,6 +105,7 @@ section {
 .left-nav {
     margin-left: 3rem;
     font-size: 40px;
+    font-weight: bold;
     text-transform: uppercase;
     cursor: default;
 }
@@ -354,7 +356,7 @@ ul li a{
     top: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color));
+    background: linear-gradient(rgba(0, 0, 0, .6), var(--main-color));
     display: flex;
     justify-self: center;
     align-items: center;
@@ -371,12 +373,14 @@ ul li a{
 
 .layer h4 {
     font-size: 3rem;
-
+    color: var(--second-text-color)
 }
 
 .layer p {
     font-size: 1.6rem;
     margin: .3rem 0 1rem;
+    color: var(--second-text-color)
+
 }
 
 /* educaton page */
