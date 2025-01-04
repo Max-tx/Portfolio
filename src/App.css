@@ -41,6 +41,7 @@
 /* style css */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+
 * {
     margin: 0px;
     padding: 0px;
@@ -50,6 +51,7 @@
     outline: none;
     scroll-behavior: smooth;
     font-family: 'poppins', sans-serif;
+    /* font-family: Roobert,sans-serif; */
     
 }
 
@@ -546,15 +548,34 @@ form textarea {
     background-color: var(--bg-color);
 }
 .footer-content{
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .footer-content p {
-    font-size: 1.6rem;
-    margin-left: 30rem;
+    font-size: 1.3rem;
+    /* margin-left: 30rem; */
 }
-
-.footer-content p i {
+.footer-content > p:nth-of-type(2){
+    font-weight: bold;
+}
+.footer-content .social-media{
+    display: flex;
+    justify-content: center;
+}
+.footer-content .social-media a{
+    margin: .5rem 2rem 1rem 1rem;
+    height: 3rem;
+    width: 3rem;
+}
+.footer-content .social-media a:hover i{
+    color: var(--second-text-color);
+}
+.footer-content .social-media a i{
     font-size: 2rem;
+}
+.footer-content p i {
+    font-size: 1.3rem;
     color: var(--main-color);
 }
