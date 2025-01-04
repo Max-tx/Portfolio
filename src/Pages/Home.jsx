@@ -176,10 +176,8 @@ function Home() {
                 <div className="project-box">
                     <img src="/assets/Images/Kalakriti.png"/>
                     <div className="layer">
-                        <h4>Expense Tracker</h4>
-                        <p>Expense Tracker is a project designed to help users efficiently manage and track their
-                            financial expenses, providing a user-friendly interface and robust features for budgeting,
-                            categorizing expenses, and generating insightful reports.</p>
+                        <h4>Kalakriti</h4>
+                        <p>Kalakriti empowers Indian artists to showcase and sell traditional art globally. By fostering fair pay, secure transactions, and community engagement, it connects artists with buyers and promotes Indian cultural heritage worldwide through features like art search and interactive forums.</p>
                         <a href="https://max-tx.github.io/Kalakriti-_-The-culture-/" target="_blank" rel="noopener noreferrer" class="view-btn">Read more</a>
 
                     </div>
@@ -189,10 +187,8 @@ function Home() {
                 <div className="project-box">
                     <img src="/assets/Images/College site.png"/>
                     <div className="layer">
-                        <h4>College site Clone</h4>
-                        <p>My College Site Clone is a project that aims to replicate the functionalities and design of
-                            my college's website, providing students and faculty with a familiar and intuitive platform
-                            for accessing important information, resources, and services specific to our institution.
+                        <h4>CampusConnect!</h4>
+                        <p>CampusConnect is a College Site Clone project that replicates the design and functionality of my college's website. It provides students and faculty with an intuitive platform to access resources, essential information, and services, offering a seamless and familiar experience.
                         </p>
                         <a href="https://max-tx.github.io/College-Site/" target="_blank" rel="noopener noreferrer" class="view-btn">Read more</a>
                     </div>
@@ -201,10 +197,8 @@ function Home() {
                 <div className="project-box">
                     <img src="/assets/Images/Portfolio.png"/>
                     <div className="layer">
-                        <h4>Self Portfolio</h4>
-                        <p>My Portfolio is a project created to showcase my academic achievements, skills, projects, and
-                            extracurricular activities in a visually engaging way, providing a comprehensive overview of
-                            my educational journey and potential to prospective universities.</p>
+                        <h4>Personal Portfolio</h4>
+                        <p>My Personal Portfolio is a visually engaging project designed to highlight my academic achievements, skills, projects, and extracurricular activities. It offers a comprehensive overview of my educational journey and demonstrates my potential to prospective universities and employers.</p>
                         <a href="https://mohitparmar.vercel.app/" target="_blank" rel="noopener noreferrer" class="view-btn">Read more</a>
 
                     </div>

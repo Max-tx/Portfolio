@@ -469,19 +469,22 @@ ul li a{
 
 #metrics {
   /* background-image: url('./assets/10.png'); */
-    background-image: url('./assets/10th\ g.webp');
+    /* background-image: url('./assets/10th\ g.webp'); */
+    background-image: url(./assets/10th.webp);
   background-size: cover;
 }
 
 #post-metrics {
   /* background-image: url('./assets/12.png'); */
-    background-image: url('./assets/12th_g.webp');
+    /* background-image: url('./assets/12th_g.webp'); */
+    background-image: url(./assets/12th.webp);
   background-size: cover;
 }
 
 #graduate {
   /* background-image: url('./assets/graduate.png'); */
-    background-image: url('./assets/graduation_g.webp');
+    /* background-image: url('./assets/graduation_g.webp'); */
+    background-image: url(./assets/graduation.webp);
   background-size: cover;
 }
 
