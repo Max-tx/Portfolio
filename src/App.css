@@ -420,6 +420,7 @@ ul li a{
     display: flex;
     justify-content: space-around;
     margin-top: 13rem;
+    flex-wrap: wrap;
 }
 
 .education-content {
@@ -427,6 +428,10 @@ ul li a{
     width: 20%;
     height: 25rem;
     perspective: 1000px;
+    /* flex-grow: 1; */
+    flex-basis: 250px;
+    flex-basis: 250px;
+    margin-bottom: 10px;
 }
 
 .education-box {
@@ -545,7 +550,7 @@ form textarea {
 .footer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     flex-wrap: wrap;
     padding: 2rem 9%;
     background-color: var(--bg-color);
