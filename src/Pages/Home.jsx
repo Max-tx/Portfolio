@@ -161,9 +161,7 @@ function Home() {
                 <div className="box">
                     <i className='bx bxl-microsoft'></i>
                     <h3>MS-office</h3>
-                    <p>With my MS Office skills, I am proficient in utilizing the suite's applications such as Word,
-                        Excel, and PowerPoint to create professional documents, analyze data, and deliver impactful
-                        presentations, enhancing productivity and communication in various professional settings.
+                    <p>I am proficient in MS Office tools, including Word, Excel, and PowerPoint. I create polished documents, perform efficient data analysis, and deliver compelling presentations, ensuring productivity and professional excellence.I
                     </p>
                     <a href="#" className="btn">Read more</a>
                 </div>

@@ -247,6 +247,7 @@ ul li a{
     align-items: center;
     gap: 2rem;
     background-color: var(--second-bg-color);
+    flex-wrap: wrap;
 }
 
 .left-about img {
@@ -314,8 +315,8 @@ ul li a{
 
 .box p {
     height: 200px;
-    font-size: 1.7rem;
-    margin: 1rem 0 3rem;
+    font-size: 1.6rem;
+    margin: 1rem 0 4rem;
 }
 
 .project {
@@ -429,7 +430,6 @@ ul li a{
     height: 25rem;
     perspective: 1000px;
     /* flex-grow: 1; */
-    flex-basis: 250px;
     flex-basis: 250px;
     margin-bottom: 10px;
 }
@@ -560,10 +560,11 @@ form textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .footer-content p {
     font-size: 1.3rem;
-    /* margin-left: 30rem; */
+    margin: 5px 0;
 }
 .footer-content > p:nth-of-type(2){
     font-weight: bold;
@@ -586,4 +587,20 @@ form textarea {
 .footer-content p i {
     font-size: 1.3rem;
     color: var(--main-color);
+}
+
+/* Responsive */
+.home{
+    flex-wrap: wrap;
+}
+.home > div{
+    flex-basis: 250px;
+}
+@media (max-width:426px){
+    .contact form .input-box input {
+        width: 100%;
+    }
+    .footer-content{
+        justify-content: center;
+    }
 }
