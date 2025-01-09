@@ -592,15 +592,26 @@ form textarea {
 .home{
     flex-wrap: wrap;
 }
-.home > div{
-    flex-basis: 250px;
-}
+
 @media (max-width:426px){
     .contact form .input-box input {
         width: 100%;
     }
     .footer-content{
         justify-content: center;
+    }
+    .right-home img , .left-about img  {
+        /* width: 50vw; */
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .left-home{
+        order: 2;
+    }
+    .about{
+        flex-wrap: wrap;
     }
 }
 
@@ -616,40 +627,6 @@ form textarea {
     display: inline-block;
 }
 @media (max-width:426px){
-    /* .open-menu{
-        font-size:3.5rem ;
-        display: block;
-        position: fixed;
-        right: 10px;
-    }
-    .close-menu{
-        font-size:3.5rem ;
-        display: block;
-        position: relative;
-        top: 10px;
-        right: -100px;
-        width: 30px;
-    }
-    .right-nav > ul{
-        position: fixed;
-        flex-direction: column;
-        align-items: start;
-        gap: 20px;
-        background-color: var(--bg-color);
-        width: 150px;
-        height:max-content;
-        z-index: 2;
-        transition: right 0.5;
-        right: -5px;
-        top: 0px;
-        padding: 0 10px;
-        
-    }
-    .right-nav > ul > li{
-        flex-direction: row;
-
-    } */
-
     /* Menu (initially hidden) */
 .right-nav > ul {
     position: fixed;

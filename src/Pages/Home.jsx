@@ -84,12 +84,12 @@ function Home() {
 
             </div>
             <div className="right-home">
-                <img src="/assets/Images/Picsart.png" alt="image" />
+                <img src="assets/Images/Self_image.png" alt="image" />
             </div>
         </section>
         <section className="about" id="about">
             <div className="left-about">
-                <img src="/assets/Images/Picsart.png" alt="image"/>
+                <img src="assets/Images/Self_image.png" alt="image"/>
             </div>
             <div className="right-about">
                 <h2 className="heading">About <span className="span">me</span></h2>
