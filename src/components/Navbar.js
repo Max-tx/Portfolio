@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -28,6 +28,16 @@ const Navbar = () => {
       element.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
+// menu open and close
+const [menu,setMenu] = useState("home")
+const menuRef= useRef();
+const OpenMenu = () => {
+  menuRef.current.style.right ="0";
+}
+const CloseMenu = () => {
+  menuRef.current.style.right ="-100%";
+}
+
 
   return (
     <header>
@@ -35,8 +45,10 @@ const Navbar = () => {
         <div className="left-nav">
           <span>Mohit Parmar</span>
         </div>
+        <i className='bx bx-menu-alt-right open-menu' onClick={OpenMenu}></i>
         <div className="right-nav">
-          <ul>
+          <ul ref={menuRef}> 
+        <i class='bx bx-x close-menu' onClick={CloseMenu}></i>
             <li>
               <Link
                 to="/"
@@ -82,9 +94,18 @@ const Navbar = () => {
                 Projects
               </Link>
             </li>
+            <li className="menu-contact">
+              <Link
+                to="/"
+                onClick={() => scrollToSection("contact")}
+                className={activeSection === "contact" ? "active" : ""}
+              >
+                Contact
+              </Link>
+            </li>
           </ul>
         </div>
-        <div className="btn">
+        <div className="btn btn-contact">
           <Link to="/" onClick={() => scrollToSection("contact")} >Contact
           </Link>
         </div>
