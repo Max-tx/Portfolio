@@ -1,6 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import emailjs from 'emailjs-com';
+import Slider from "react-slick"; //for slider carousal
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'boxicons/css/boxicons.min.css';
 
@@ -47,6 +50,53 @@ const ContactForm = () => {
             </form>
         </section>
     );
+};
+const ProjectCarousel = () => {
+    // let sliderRef = useRef(null);
+    
+const settings = {
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000
+};  
+return (
+    <section className="project" id="project"> 
+            <h2 className="heading">My <span className="span">projects</span></h2>
+            <div className="projectcontent">
+            {/* <Slider {...settings}> */}
+            <Slider className="slider-container" {...settings}>
+                <div className="project-box">
+                    <img src="/assets/Images/Kalakriti.png"/>
+                    <div className="layer">
+                        <h4>Kalakriti</h4>
+                        <p>Kalakriti empowers Indian artists to showcase and sell traditional art globally. By fostering fair pay, secure transactions, and community engagement, it connects artists with buyers and promotes Indian cultural heritage worldwide through features like art search and interactive forums.</p>
+                        <a href="https://max-tx.github.io/Kalakriti-_-The-culture-/" target="_blank" rel="noopener noreferrer" className="view-btn">Read more</a>
+                   </div>
+                </div>
+                <div className="project-box">
+                    <img src="/assets/Images/College site.png"/>
+                    <div className="layer">
+                        <h4>CampusConnect!</h4>
+                        <p>CampusConnect is a College Site Clone project that replicates the design and functionality of my college's website. It provides students and faculty with an intuitive platform to access resources, essential information, and services, offering a seamless and familiar experience.
+                        </p>
+                        <a href="https://max-tx.github.io/College-Site/" target="_blank" rel="noopener noreferrer" className="view-btn">Read more</a>
+                    </div>
+                </div>
+                <div className="project-box">
+                    <img src="/assets/Images/Portfolio.png"/>
+                    <div className="layer">
+                        <h4>Personal Portfolio</h4>
+                        <p>My Personal Portfolio is a visually engaging project designed to highlight my academic achievements, skills, projects, and extracurricular activities. It offers a comprehensive overview of my educational journey and demonstrates my potential to prospective universities and employers.</p>
+                        <a href="https://mohitparmar.vercel.app/" target="_blank" rel="noopener noreferrer" className="view-btn">Read more</a>
+                    </div>
+                </div>
+            </Slider>
+            </div>
+        </section>
+);
 };
 
 function Home() {
@@ -168,7 +218,8 @@ function Home() {
             </div>
 
         </section>
-        <section className="project" id="project">
+        <ProjectCarousel/>
+        {/* <section className="project" id="project"> 
             <h2 className="heading">My <span className="span">projects</span></h2>
             <div className="projectcontent">
                 <div className="project-box">
@@ -203,7 +254,7 @@ function Home() {
                 </div>
             </div>
 
-        </section>
+        </section> */}
         {/* <section className="contact" id="contact">
             <h2 className="heading">Contact <span className="span">me!</span></h2>
             <form action="#">
