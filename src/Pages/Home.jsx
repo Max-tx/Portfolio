@@ -46,7 +46,7 @@ const ContactForm = () => {
                     <input type="text" name="subject" placeholder="Subject" required />
                 </div>
                 {/* <textarea name="message" cols="30" rows="10" placeholder="Message description" required></textarea> */}
-                <textarea name="message" class="message-textarea" placeholder="Message description" required></textarea>
+                <textarea name="message" cols="30" class="message-textarea" placeholder="Message description" required></textarea>
 
                 <input type="submit" value="Send Message" className="btn" />
             </form>

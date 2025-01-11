@@ -436,7 +436,11 @@ ul li a{
     margin-top: 13rem;
     flex-wrap: wrap;
 }
-
+@media (max-width:768px){
+    .container{
+        margin-top: 1rem;
+    }
+}
 .education-content {
     background-color: transparent;
     width: 20%;
@@ -566,7 +570,7 @@ form textarea {
 /* For mobile devices */
 @media (max-width: 768px) {
     .message-textarea {
-        height: 20rem; /* Adjust height for mobile */
+        height: 15rem; /* Adjust height for mobile */
     }
 }
 
