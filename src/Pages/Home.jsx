@@ -132,7 +132,7 @@ function Home() {
             <div className="left-home">
                 <h3 className="Hi">Hey, my self</h3>
                 <h1 className="name">Mohit</h1>
-                <h3 className="Hi">and I am a passionate</h3><span ref={typedElement} id="element"></span>
+                <h3 className="Hi">and I am a passionate</h3><span ref={typedElement} className=""  id="element"></span>
                 <div className="social-media">
                     <a href="https://github.com/Max-tx"
                         target="_blank" rel="noopener noreferrer"><i className='bx bxl-github'></i></a>
@@ -141,7 +141,7 @@ function Home() {
                     <a href="https://www.linkedin.com/in/mohit-parmar-b34932240" target="_blank" rel="noopener noreferrer"><i
                             className='bx bxl-linkedin'></i></a>
                 </div>
-                    <a className="btn" href="/resume.pdf" target="_blank" rel="noopener noreferrer">View My Resume</a>
+                    <a className="btn" href="/Mohit_Resume.pdf" target="_blank" rel="noopener noreferrer">View My Resume</a>
 
             </div>
             <div className="right-home">
