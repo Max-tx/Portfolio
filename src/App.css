@@ -382,6 +382,12 @@ ul li a{
     margin: 0 !important;
 }
 
+@media (max-width:768px){
+.layer {
+    padding: 0 1rem;
+    }
+}
+
 .project-box:hover .layer {
     transform: translateY(0);
 
@@ -641,10 +647,14 @@ form textarea {
     .about{
         flex-wrap: wrap;
     }
-    section .about {
-        padding: 4rem 5% 2rem;
+    section.about {
+        padding: 6rem 5% 2rem;
         gap: 0;
     }
+    section.home {
+        padding: 6rem 9% 2rem;
+    }
+    
 }
 
 /* nav bar */
