@@ -335,6 +335,14 @@ ul li a{
 .slick-slide div{
     margin: 0 10px;
 }
+@media (max-width: 768px){
+    .slick-slide div{
+        margin: 0px;
+    }
+    section.project{
+        padding: 10rem 2% 2rem;
+    }
+}
 .slick-prev, .slick-next{
     display: none !important;
 }
@@ -551,6 +559,16 @@ form textarea {
     margin-top: 2rem;
     cursor: pointer;
 }
+.message-textarea {
+    height: 25rem; /* Default height based on rows="10" */
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+    .message-textarea {
+        height: 20rem; /* Adjust height for mobile */
+    }
+}
 
 .footer {
     display: flex;
@@ -618,6 +636,10 @@ form textarea {
     }
     .about{
         flex-wrap: wrap;
+    }
+    section .about {
+        padding: 4rem 5% 2rem;
+        gap: 0;
     }
 }
 

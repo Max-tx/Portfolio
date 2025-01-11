@@ -45,7 +45,9 @@ const ContactForm = () => {
                     <input type="text" name="mobile" placeholder="Mobile number" required />
                     <input type="text" name="subject" placeholder="Subject" required />
                 </div>
-                <textarea name="message" cols="30" rows="10" placeholder="Message description" required></textarea>
+                {/* <textarea name="message" cols="30" rows="10" placeholder="Message description" required></textarea> */}
+                <textarea name="message" class="message-textarea" placeholder="Message description" required></textarea>
+
                 <input type="submit" value="Send Message" className="btn" />
             </form>
         </section>
@@ -60,7 +62,16 @@ const settings = {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 768, // For screens below 768px
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+        ],
 };  
 return (
     <section className="project" id="project"> 
